@@ -340,7 +340,7 @@ h1, h2 { font-family: var(--font-display); margin: 0; }
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 24px;
   margin-top: 28px;
 }
