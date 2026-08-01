@@ -4,171 +4,161 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nikhil Tekwani — Finance, Pharma</title>
-<meta name="description" content="Personal site of Nikhil Tekwani — finance professional in pharma. Experience, achievements, and comics/watercolours.">
+<meta name="description" content="Personal site of Nikhil Tekwani — finance professional in pharma. Resume, achievements, and comics/watercolours.">
 
-<!-- Fonts: a serif for headings (Fraunces), a clean sans for body (Inter), a mono for labels/dates (IBM Plex Mono) -->
+<!-- Display serif for the personal, editorial feel; a clean grotesque for body copy -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="page">
+<!-- ============ NAV ============ -->
+<nav class="site-nav">
+  <span class="nav-mark">NT</span>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
-  <!-- ============ HEADER ============ -->
-  <header class="site-header">
-    <div class="header-top">
-      <div class="identity">
-        <h1 class="name">Nikhil Tekwani</h1>
-        <p class="role">Finance Leader, Pharma — FP&amp;A · R&amp;D Finance · Business Partnering</p>
-      </div>
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
-      </button>
+<!-- ============ HERO ============ -->
+<header id="about" class="hero">
+  <!-- EDIT: replace with your own photo at images/profile/profile.jpg -->
+  <img class="hero-photo" src="images/profile/profile.jpg" alt="Nikhil Tekwani">
+  <p class="hero-hello">Hello</p>
+  <h1 class="hero-name">Nikhil Tekwani</h1>
+  <p class="hero-role">Finance Leader, Pharma</p>
+  <p class="hero-tagline">Here's who I am &amp; what I do.</p>
+
+  <div class="hero-actions">
+    <a href="#resume" class="btn btn-primary">Resume</a>
+    <a href="#projects" class="btn btn-outline">Projects</a>
+  </div>
+
+  <div class="social-row">
+    <a href="https://www.linkedin.com/in/nikhilmtekwani/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+    <a href="https://aimeansbusiness.substack.com/" target="_blank" rel="noopener" aria-label="Substack">S</a>
+    <a href="https://github.com/NickTek" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+    <a href="https://share.streamlit.io/user/nicktek" target="_blank" rel="noopener" aria-label="Streamlit">St</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ ABOUT PARAGRAPH ============ -->
+  <section class="section about-section">
+    <p class="about-text">
+      I'm a finance professional with <em>7+ years</em> of experience across FP&amp;A, operations and manufacturing
+      finance, R&amp;D finance, and controllership — mostly within manufacturing and pharmaceutical industries.
+      I like connecting financial numbers to what's actually happening on the ground, and I'm fluent in IFRS
+      and comfortable in SAP and Power BI.
+    </p>
+    <p class="about-text">
+      Outside of work: I travel when I can, paint in watercolours, draw the odd comic, try to stay on top of
+      current affairs, pick away at learning new languages, and watch far too many movies.
+    </p>
+  </section>
+
+  <!-- ============ RESUME ============ -->
+  <section id="resume" class="section">
+    <p class="section-eyebrow">What I do</p>
+    <h2 class="section-title">Areas of Expertise</h2>
+
+    <ul class="expertise-list">
+      <li class="expertise-item">
+        <span class="expertise-name">FP&amp;A</span>
+        <p>Budgeting, forecasting, and performance reporting — connecting financial results to what's actually happening in the business.</p>
+      </li>
+      <li class="expertise-item">
+        <span class="expertise-name">Operations &amp; Manufacturing Finance</span>
+        <p>Cost, inventory, and supply chain analysis across multi-site manufacturing operations.</p>
+      </li>
+      <li class="expertise-item">
+        <span class="expertise-name">R&amp;D Finance</span>
+        <p>Portfolio budgeting, pipeline valuation, and performance tracking for R&amp;D-driven organizations.</p>
+      </li>
+      <li class="expertise-item">
+        <span class="expertise-name">Controllership</span>
+        <p>Statutory reporting, tax, and compliance across IFRS and local regulatory frameworks.</p>
+      </li>
+    </ul>
+
+    <p class="section-eyebrow subhead">Background</p>
+    <p class="resume-desc">
+      7+ years in finance roles spanning pharmaceutical and manufacturing companies across Switzerland and India —
+      from specialty commercial businesses to global R&amp;D portfolios and multi-site manufacturing operations.
+    </p>
+
+    <p class="section-eyebrow subhead">Qualifications</p>
+    <ul class="achieve-list">
+      <li>Chartered Accountant (ICAI)</li>
+      <li>ACCA Diploma in International Financial Reporting</li>
+      <li>Master of Commerce</li>
+    </ul>
+
+    <p class="section-eyebrow subhead">Achievements</p>
+    <ul class="achieve-list">
+      <li>Delivered a 5% product cost reduction across a large procurement portfolio through cost and sourcing analysis.</li>
+      <li>Identified a significant vendor overcharge during routine invoice review and secured its recovery.</li>
+      <li>Secured a six-figure tax refund by identifying missed credits across prior periods.</li>
+      <li>Delivered meaningful annual cost savings through spend and utilisation analysis.</li>
+      <li>Cut a multi-day reporting cycle through automation of multi-source data consolidation.</li>
+    </ul>
+  </section>
+
+  <!-- ============ PROJECTS (Comics & Watercolours) ============ -->
+  <section id="projects" class="section projects-section">
+    <p class="section-eyebrow">Projects</p>
+    <h2 class="section-title">Comics &amp; Watercolours</h2>
+    <p class="projects-intro">I draw comics and paint in watercolours in my spare time. A few favorites:</p>
+
+    <div class="projects-grid">
+      <!-- EDIT: replace src with your own images in images/comics/ -->
+      <a class="project-thumb" href="images/comics/comic-1-full.png" target="_blank" rel="noopener">
+        <img src="images/comics/comic-1.png" alt="Comic 1" loading="lazy">
+      </a>
+      <a class="project-thumb" href="images/comics/comic-2-full.png" target="_blank" rel="noopener">
+        <img src="images/comics/comic-2.png" alt="Watercolour 1" loading="lazy">
+      </a>
+      <a class="project-thumb" href="images/comics/comic-3-full.png" target="_blank" rel="noopener">
+        <img src="images/comics/comic-3.png" alt="Comic 2" loading="lazy">
+      </a>
     </div>
+    <!-- EDIT or remove this link -->
+    <a class="projects-more" href="#" target="_blank" rel="noopener">See more ↗</a>
+  </section>
 
-    <nav class="site-nav">
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#achievements">Achievements</a>
-      <a href="#comics">Comics &amp; Watercolours</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact-section">
+    <p class="section-eyebrow">Get in touch</p>
+    <h2 class="section-title">Contact</h2>
 
-    <p class="status-line"><span class="status-dot"></span> currently: <span class="status-highlight">Deputy General Manager – Finance</span> @ Glenmark Specialty SA · Neuchâtel, CH</p>
-  </header>
-
-  <main>
-
-    <!-- ============ ABOUT ============ -->
-    <section id="about" class="section">
-      <p class="lede">
-        I'm a finance professional with <em>7+ years</em> in FP&amp;A, financial controllership, and strategic
-        business partnering across the pharmaceutical industry. I currently lead financial planning and
-        performance management for an <em>80M USD R&amp;D portfolio</em> spanning pre-clinical research through
-        CMC, alongside a <em>100M USD specialty commercial business</em> in respiratory and oncology.
-        I'm fluent in IFRS and Swiss CO, and spend a fair amount of time in SAP and Power BI.
-      </p>
-      <p class="lede">
-        Outside of work: I travel when I can, paint in watercolours, draw the odd comic, try to stay on top of
-        current affairs, pick away at learning new languages, and watch far too many movies.
-      </p>
-    </section>
-
-    <!-- ============ EXPERIENCE ============ -->
-    <section id="experience" class="section">
-      <h2 class="section-title">Experience</h2>
-      <ul class="exp-list">
-
-        <li class="exp-item">
-          <div class="exp-badge" style="--badge-color:#3D6B66;">GS</div>
-          <div class="exp-body">
-            <div class="exp-row">
-              <span class="exp-role">Deputy General Manager – Finance <span class="exp-prev">(prev. Senior Manager)</span></span>
-              <span class="exp-dates">Oct 2023 — Present</span>
-            </div>
-            <div class="exp-company">Glenmark Specialty SA · Neuchâtel, Switzerland</div>
-            <p class="exp-desc">Lead FP&amp;A and performance management for an 80M USD R&amp;D portfolio (pre-clinical through CMC) and support a 100M USD specialty commercial business in respiratory and oncology.</p>
-            <p class="exp-desc">Rebuilt rolling forecast models, improving non-clinical spend forecast accuracy by ~20%.</p>
-            <p class="exp-desc">Led the company's response to a Swiss tax audit and resolved historical transfer pricing issues.</p>
-          </div>
-        </li>
-
-        <li class="exp-item">
-          <div class="exp-badge" style="--badge-color:#8A6D3B;">GP</div>
-          <div class="exp-body">
-            <div class="exp-row">
-              <span class="exp-role">Senior Manager, CFO's Office <span class="exp-prev">(prev. Operations Finance)</span></span>
-              <span class="exp-dates">Sep 2018 — Oct 2023</span>
-            </div>
-            <div class="exp-company">Glenmark Pharmaceuticals Limited · Mumbai, India</div>
-            <p class="exp-desc">Led cross-functional delivery of the company's first Integrated Annual Report — Chairman's Excellence Award, 2022.</p>
-            <p class="exp-desc">Owned FP&amp;A for 300M USD global procurement and 30M USD logistics spend across 8 manufacturing sites.</p>
-            <p class="exp-desc">Identified a 5% product cost improvement opportunity through BOM analysis and alternative sourcing.</p>
-          </div>
-        </li>
-
-        <li class="exp-item">
-          <div class="exp-badge" style="--badge-color:#5B6470;">BD</div>
-          <div class="exp-body">
-            <div class="exp-row">
-              <span class="exp-role">Chartered Accountancy Articleship</span>
-              <span class="exp-dates">Aug 2015 — Aug 2018</span>
-            </div>
-            <div class="exp-company">BDO India LLP · Mumbai, India</div>
-            <p class="exp-desc">Tax compliance, M&amp;A due diligence, and restructuring transactions across several industries.</p>
-          </div>
-        </li>
-
-      </ul>
-    </section>
-
-    <!-- ============ ACHIEVEMENTS ============ -->
-    <section id="achievements" class="section">
-      <h2 class="section-title">Achievements</h2>
-      <ul class="proj-list">
-        <li class="proj-item">
-          <p>Delivered a 5% product cost reduction across a 300M USD procurement portfolio through BOM analysis, reformulation, and alternative sourcing.</p>
-        </li>
-        <li class="proj-item">
-          <p>Identified a 1.5M USD CRO vendor overcharge during routine invoice review and escalated it for recovery.</p>
-        </li>
-        <li class="proj-item">
-          <p>Secured a CHF 500K+ tax refund by identifying missed foreign tax credits across prior periods.</p>
-        </li>
-        <li class="proj-item">
-          <p>Delivered 1M USD in annual IT cost savings through a spend and service-utilisation analysis.</p>
-        </li>
-        <li class="proj-item">
-          <p>Cut the reporting cycle by 3 days by automating multi-source data consolidation across 8 manufacturing plants with Power Query and Power BI.</p>
-        </li>
-      </ul>
-    </section>
-
-    <!-- ============ COMICS ============ -->
-    <!-- Visually set apart from the professional sections on purpose: dashed border, slightly warmer panel -->
-    <section id="comics" class="section comics-section">
-      <h2 class="section-title">Comics &amp; Watercolours</h2>
-      <p class="comics-intro">I draw comics and paint in watercolours in my spare time. A few favorites:</p>
-      <div class="comics-grid">
-        <!-- EDIT: replace src with your own images in images/comics/, and swap the alt text -->
-        <a class="comic-thumb" href="images/comics/comic-1-full.png" target="_blank" rel="noopener">
-          <img src="images/comics/comic-1.png" alt="Comic 1" loading="lazy">
-        </a>
-        <a class="comic-thumb" href="images/comics/comic-2-full.png" target="_blank" rel="noopener">
-          <img src="images/comics/comic-2.png" alt="Watercolour 1" loading="lazy">
-        </a>
-        <a class="comic-thumb" href="images/comics/comic-3-full.png" target="_blank" rel="noopener">
-          <img src="images/comics/comic-3.png" alt="Comic 2" loading="lazy">
-        </a>
-      </div>
-      <!-- EDIT or remove this link if you don't have a separate gallery -->
-      <a class="comics-more" href="#" target="_blank" rel="noopener">See more ↗</a>
-    </section>
-
-    <!-- ============ CONTACT ============ -->
-    <section id="contact" class="section">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-row">
+    <div class="contact-grid">
+      <div class="contact-block">
+        <p class="contact-label">Write</p>
         <!-- EDIT: set data-user and data-domain to your real email -->
-        <button id="email-reveal" class="email-btn" data-user="nikhil.tekwani" data-domain="example.com">Click to reveal email</button>
-        <div class="social-links">
+        <button id="email-reveal" class="contact-value email-btn" data-user="nikhil.tekwani" data-domain="example.com">Click to reveal email</button>
+      </div>
+      <div class="contact-block">
+        <p class="contact-label">Follow</p>
+        <div class="contact-value follow-links">
           <a href="https://www.linkedin.com/in/nikhilmtekwani/" target="_blank" rel="noopener">LinkedIn</a>
           <a href="https://aimeansbusiness.substack.com/" target="_blank" rel="noopener">Substack ↗</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-  </main>
+</main>
 
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Nikhil Tekwani</p>
-  </footer>
-
-</div>
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Nikhil Tekwani</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
