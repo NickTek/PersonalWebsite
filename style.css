@@ -344,6 +344,9 @@ h1, h2 { font-family: var(--font-display); margin: 0; }
   gap: 24px;
   margin-top: 28px;
 }
+.contact-block {
+  width: 100%;
+}
 
 .contact-block {
   background: var(--bg-alt);
